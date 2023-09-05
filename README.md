@@ -15,3 +15,4 @@ Activities Performed in favourite vacation spot :
 - **Stuffed Crab Mixture:** Must try dish which is made up of smashed crab meat.
 - **Fish Thali:** Must try dish where the different types of fish fry's and curry's are available.
 
+For the personal information about me,click here [MyStats](MyStats.md).
