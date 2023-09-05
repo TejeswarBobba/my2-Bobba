@@ -30,3 +30,10 @@ The below table describes about the different types of sports which are recommen
 | Football | will help in building strength, stamina and speed.Also used to improvr concentration and coordination.| 5-6 |
 | Volleyball | will help to teach important lessons in perseverance, teamwork and selflessness. | 4-5 |
 
+---
+
+#### Pithy Quotes 
+
+> "The important thing is not to stop questioning." - *Albert Einstein*
+
+>"The more I learn, the more I realize how much I don't know." - *Isaac Newton*
