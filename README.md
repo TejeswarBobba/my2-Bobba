@@ -37,3 +37,53 @@ The below table describes about the different types of sports which are recommen
 > "The important thing is not to stop questioning." - *Albert Einstein*
 
 >"The more I learn, the more I realize how much I don't know." - *Isaac Newton*
+
+---
+
+#### Code Fencing 
+
+> Relevant question on stack overflow : [Link for stack overflow question](https://stackoverflow.com/questions/25590269/styling-radio-button)
+
+```
+/*
+  Hide the original radios and checkboxes
+  (but still accessible)
+
+  :not(#foo) > is a rule filter to block browsers
+  that don't support that selector from
+  applying rules they shouldn't
+
+*/
+li:not(#foo) > fieldset > div > span > input[type='radio'],
+li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
+  /* Hide the input, but have it still be clickable */
+  opacity: 0;
+
+  float: left;
+  width: 18px;
+}
+
+
+li:not(#foo) > fieldset > div > span > input[type='radio'] + label,
+li:not(#foo) > fieldset > div > span > input[type='checkbox'] + label {
+  margin: 0;
+  clear: none;
+
+  /* Left padding makes room for image */
+  padding: 5px 0 4px 24px;
+
+  /* Make look clickable because they are */
+  cursor: pointer;
+
+  background: url(off.png) left center no-repeat;
+}
+
+/* Change from unchecked to checked graphic */
+li:not(#foo) > fieldset > div > span > input[type='radio']:checked + label {
+  background-image: url(radio.png);
+}
+li:not(#foo) > fieldset > div > span > input[type='checkbox']:checked + label {
+  background-image: url(check.png);
+}
+```
+Source of the snippet has been taken from here :[Snippet source link](https://css-tricks.com/snippets/css/custom-checkboxes-and-radio-buttons/)
